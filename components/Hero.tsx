@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div>
       <div className="max-w-screen-xl m-auto p-4">
-        <div className="flex items-center justify-between w-full h-full mt-[60px] gap-20">
+        <div className="flex flex-col sm:flex-row items-center justify-between w-full h-full mt-[60px] gap-20">
           <div className="flex-1 flex-col gap-[1.2rem]">
             <h2 className="text-xl">
               Hi, I&apos;m{" "}

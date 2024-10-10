@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             {isActive && (
               <div>
-                <ul className="flex flex-col justify-between items-center gap-16">
+                <ul className="sm:hidden flex flex-col justify-between items-center gap-8 absolute top-[50px] right-4 bg-gradient-to-r from-[#083a3e] to-[#06352f] p-4 rounded-md">
                   <li>
                     <Link
                       className="text-white text-[1.2rem] hover:text-xl"

@@ -10,7 +10,7 @@ const Contact = () => {
         action=""
         className="flex flex-col gap-4 p-[10px] ring-2 rounded-[10px] ring-gray-600"
       >
-        <div className="flex gap-4 my-[10px]">
+        <div className="flex flex-col sm:flex-row gap-4 my-[10px]">
           <input
             type="text"
             name=""

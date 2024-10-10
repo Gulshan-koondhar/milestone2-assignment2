@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <div className="max-w-screen-xl m-auto p-4">
-        <div className="flex items-center justify-between mt-14 gap-20">
+        <div className="lg:flex-row flex-col flex items-center justify-between mt-2 gap-20">
           <div className="flex-1 flex-col gap-[1.2rem]">
             <h2 className="text-[2.5rem] bg-gradient-to-tl from-[#a5d0d3] to-[#21a392] text-transparent bg-clip-text">
               About
@@ -31,7 +31,7 @@ const About = () => {
               front-end development and continue to grow as a developer.
             </p>
             <div>
-              <h2 className="text-[2.5rem] bg-gradient-to-tl from-[#a5d0d3] to-[#21a392] text-transparent bg-clip-text">
+              <h2 className="text-[2.5rem] mt-8 bg-gradient-to-tl from-[#a5d0d3] to-[#21a392] text-transparent bg-clip-text">
                 Skills
               </h2>
               <div className="flex items-center justify-between mt-[10px]">
